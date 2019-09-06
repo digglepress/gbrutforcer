@@ -1,9 +1,11 @@
-step 1. change to termcolor folder
+step 1. install termcolor from pypi
+
+pip install -r requirements.txt
+or...
+
+step 2. install termcolor from gbruteforcer main folder
 
 cd termcolor
-
-step 2. install termcolor
-
 sudo python setup.py install
 
 step 3. change to gbruteforcer main directory
@@ -17,4 +19,4 @@ python bruteforcer.py
 NB>> you must type in your target email in single or double qoute
 i.e "example@email.com", 'example@email.com'
 same thing goes with the path to password list
-i.e 'path/to/password/list.txt'
+i.e "path/to/password/list.txt", 'path/to/password/list.txt'

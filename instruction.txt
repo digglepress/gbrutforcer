@@ -1,0 +1,3 @@
+pip install -r requirements.txt
+or 
+pip3 install -r reuirements.txt

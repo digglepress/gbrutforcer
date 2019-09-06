@@ -12,7 +12,7 @@ btf_server.ehlo()
 btf_server.starttls()
 
 # Getting username snd password list from user.
-emailaddrs = input(colored("[*] Enter Targets Email: ", 'yellow'))
+emailaddrs = str(input(colored("[*] Enter Targets Email: ", 'yellow')))
 pwdlst = input(colored("[*] Enter Path to Password File: ", 'yellow'))
 
 # Opening the Password list and Setting it to 'read mode'

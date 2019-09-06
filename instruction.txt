@@ -1,3 +1,22 @@
-pip install -r requirements.txt
-or 
-pip3 install -r reuirements.txt
+step 1. change to termcolor folder
+
+cd termcolor
+
+step 2. install termcolor
+
+sudo python setup.py install
+or
+sudo python3 setup.py install
+
+step 3. change to gbruteforcer main directory
+
+cd ../
+
+step 4. run the script
+
+python3 bruteforcer.py
+
+NB>> you must type in your target email in single or double qoute
+i.e "example@email.com", 'example@email.com'
+same thing goes with the path to password list
+i.e 'path/to/password/list.txt'
